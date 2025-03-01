@@ -1,10 +1,10 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Cricket*
 
 Submitted by: **Ravi Teja Gattu**
 
 This web app: **Cricket Teams**
 
-Time spent: **2** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -57,10 +57,10 @@ Consistent use of fonts: Ensures a consistent and pleasant font-family (Inter, A
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+https://github.com/user-attachments/assets/f6d6fb21-afd2-4a8b-8f5a-58fd7674261b
 
-<img src='https://submissions.us-east-1.linodeobjects.com/web102/HP-dj1Ak.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
+<!--  https://cloudconvert.com/webm-to-gif -->
 GIF created with ...  https://cloudconvert.com/webm-to-gif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS

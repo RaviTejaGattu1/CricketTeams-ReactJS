@@ -61,8 +61,10 @@ https://drive.google.com/file/d/17EHgI_BcqC43xsdrHDTt4XlP2O6MFpKf/view?usp=shari
 https://github.com/user-attachments/assets/f6d6fb21-afd2-4a8b-8f5a-58fd7674261b
 
 <img src='https://drive.google.com/file/d/17EHgI_BcqC43xsdrHDTt4XlP2O6MFpKf/view?usp=sharing' title='Video Walkthrough1' width='' alt='Video Walkthrough' />
+[Watch the video](https://github.com/user-attachments/assets/f6d6fb21-afd2-4a8b-8f5a-58fd7674261b)
 
-<img src='https://github.com/user-attachments/assets/f6d6fb21-afd2-4a8b-8f5a-58fd7674261b' title='Video Walkthrough2' width='' alt='Video Walkthrough' />
+
+<img src='' title='Video Walkthrough2' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  https://cloudconvert.com/webm-to-gif

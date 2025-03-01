@@ -59,6 +59,7 @@ Consistent use of fonts: Ensures a consistent and pleasant font-family (Inter, A
 Here's a walkthrough of implemented required features:
 https://drive.google.com/file/d/17EHgI_BcqC43xsdrHDTt4XlP2O6MFpKf/view?usp=sharing
 https://github.com/user-attachments/assets/f6d6fb21-afd2-4a8b-8f5a-58fd7674261b
+[Video](https://github.com/user-attachments/assets/bff7e2c1-9606-48ad-b0a7-59b7483d905f)
 
 <img src='https://drive.google.com/file/d/17EHgI_BcqC43xsdrHDTt4XlP2O6MFpKf/view?usp=sharing' title='Video Walkthrough1' width='' alt='Video Walkthrough' />
 [Watch the video](https://github.com/user-attachments/assets/f6d6fb21-afd2-4a8b-8f5a-58fd7674261b)

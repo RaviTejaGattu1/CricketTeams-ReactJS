@@ -1,68 +1,72 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Ensuring grid layout is applied correctly */
+.teams {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Centering the grid */
+  padding: 20px;
+  width: 100%;  /* Full width for container */
+  max-width: 1200px; /* Limit width if needed */
+  margin: auto; /* Centering the grid */
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+/* Team card styles */
+.team-card {
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px; /* Fixed width for card */
+  height: 250px; /* Fixed height for card */
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column; /* Ensuring vertical layout inside each card */
+  justify-content: space-between; /* Distribute space inside */
+  align-items: center; /* Center align the content */
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* For image inside card */
+.team-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+/* Button styling */
+.team-card button {
+  background-color: blue;
+  color: white;
+  padding: 8px 12px;
+  border: none;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  border-radius: 5px;
+  margin-top: auto; /* Makes sure button is at the bottom */
+  width: 100px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* General button styles outside team cards */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .teams {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium-sized screens */
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+}
+
+@media (max-width: 480px) {
+  .teams {
+    grid-template-columns: 1fr; /* 1 card per row on mobile */
   }
 }

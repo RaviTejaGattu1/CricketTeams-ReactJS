@@ -57,6 +57,7 @@ Consistent use of fonts: Ensures a consistent and pleasant font-family (Inter, A
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+https://drive.google.com/file/d/17EHgI_BcqC43xsdrHDTt4XlP2O6MFpKf/view?usp=sharing
 
 <img src='https://submissions.us-east-1.linodeobjects.com/web102/HP-dj1Ak.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
